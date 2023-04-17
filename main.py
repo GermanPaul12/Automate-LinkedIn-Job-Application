@@ -60,8 +60,6 @@ driver.get(f"https://www.linkedin.com/jobs/search/?f_LF=f_AL&geoId=102257491&key
 # Constants
 # If your website is running on another language than german then change "Einloggen" to your shown log in text
 LOG_IN_TEXT = "Einloggen"
-# Same again if you use another langauge than german then change the submit button text here
-SUBMIT_BTN_TEXT = "Weiter"
 # ----------------------------------------------------------------
 
 
