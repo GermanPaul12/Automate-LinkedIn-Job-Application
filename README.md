@@ -1,4 +1,4 @@
-# Automate Job Application oin LinkedIn with Selenium in Python
+# Automate Job Application on LinkedIn with Selenium in Python
 
 ## This is a simple and not complete automated LinkedIn Job Applier. If you want this to work properly you need to add the code for it to fill out your address and all the other information which is missing by the code. This code is just used to show the potential of Web Automation with Selenium
 
