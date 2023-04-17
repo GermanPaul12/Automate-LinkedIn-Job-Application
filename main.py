@@ -56,7 +56,8 @@ for i in range(len(WHAT_KIND_OF_JOB)):
         JOB_DESCRIPTION_FOR_URL += WHAT_KIND_OF_JOB[i] + "%20"
 #!----------------------------------------------------------------        
 # ----------------------------------------------------------------
-driver.get(f"https://www.linkedin.com/jobs/search/?f_LF=f_AL&geoId=102257491&keywords={JOB_DESCRIPTION_FOR_URL}&location={CITY_WHERE_YOU_WANT_TO_WORK}%2C%20{COUNTRY_WHERE_YOU_WANT_TO_WORK}%2C&redirect=false&position=1&pageNum=0")
+url = f"https://www.linkedin.com/jobs/search/?f_LF=f_AL&geoId=102257491&keywords={JOB_DESCRIPTION_FOR_URL}&location={CITY_WHERE_YOU_WANT_TO_WORK}%2C%20{COUNTRY_WHERE_YOU_WANT_TO_WORK}%2C&redirect=false&position=1&pageNum=0"
+driver.get(url)
 # Constants
 # If your website is running on another language than german then change "Einloggen" to your shown log in text
 LOG_IN_TEXT = "Einloggen"
